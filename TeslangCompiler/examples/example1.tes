@@ -1,0 +1,10 @@
+fn sum(numlist as vector) <int> {
+    result :: int = 0;
+
+    for (i = 0 to length(numList))
+    begin
+        result = result + numlist[i];
+    end
+
+    return result;
+}

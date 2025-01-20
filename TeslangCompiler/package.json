@@ -1,0 +1,34 @@
+{
+  "name": "teslangcompiler",
+  "version": "1.0.0",
+  "main": "src/main.ts",
+  "type": "module",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "teslang": "node --loader ts-node/esm src/main.ts",
+    "lexer": "node --loader ts-node/esm src/print-lexer-result.ts"
+  },
+  "author": "SZ",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@types/chalk": "^0.4.31",
+    "@types/moo": "^0.5.10",
+    "@types/nearley": "^2.11.5",
+    "@types/node": "^22.10.5",
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.19.1"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "moo": "^0.5.2",
+    "nearley": "^2.20.1"
+  }
+}
